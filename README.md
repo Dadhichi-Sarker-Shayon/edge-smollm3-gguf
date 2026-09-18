@@ -54,7 +54,7 @@ llama.cpp:
 bash master-run.sh 2>&1 | tee master.log
 ```
 
-Skips finished steps on re-run. Fails loudly on bad quality instead of publishing junk. Full notes in [`ROADMAP.md`](ROADMAP.md).
+Skips finished steps on re-run. Fails loudly on bad quality instead of publishing junk.
 
 ## Honest limitations
 
