@@ -50,6 +50,11 @@ llama.cpp:
 
 ## Reproduce (one command, Kaggle T4)
 
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue)](https://www.kaggle.com/code/dadhichisarker/model-gguf-smollm3-3b)
+
+`Smol-GGUF-Pipeline.ipynb` (in this repo) — upload to Kaggle, GPU T4 x2, attach `HF_TOKEN`, Run All (~8.5h, gated auto-upload). Or locally:
+
+
 ```
 bash master-run.sh 2>&1 | tee master.log
 ```
@@ -67,6 +72,7 @@ Skips finished steps on re-run. Fails loudly on bad quality instead of publishin
 | file | what |
 |---|---|
 | `master-run.sh` | full one-shot pipeline (this run) |
+| `Smol-GGUF-Pipeline.ipynb` | same pipeline as Kaggle notebook |
 | `quant.sh` / `eval.sh` | quant + eval steps standalone |
 | `Modelfile` | Ollama build |
 | `REPRO.json` / `SHA256.txt` | proof: numbers + hashes (from HF) |
