@@ -1,0 +1,30 @@
+{
+  "base_repo": "HuggingFaceTB/SmolLM3-3B-Base",
+  "seed": 42,
+  "calib_lines": 4000,
+  "threads": 4,
+  "quants": [
+    "Q4_K_M",
+    "Q8_0"
+  ],
+  "ppl": {
+    "f16": 6.3582,
+    "Q4_K_M": 6.502,
+    "Q8_0": 6.3667
+  },
+  "rise_q4_pct": 2.26,
+  "sha16": {
+    "smol-Q4_K_M.gguf": "6e24e31788fb5a72",
+    "smol-Q8_0.gguf": "ac76daa3d272259e",
+    "imatrix.dat": "f74a6355c3cac793",
+    "calib.txt": "9a904b5aaaf06a7b",
+    "wikitext-test.txt": "28efc4aad1c6b5ed"
+  },
+  "sizes_gb": {
+    "smol-Q4_K_M.gguf": 1.92,
+    "smol-Q8_0.gguf": 3.28,
+    "imatrix.dat": 0.0,
+    "calib.txt": 0.0,
+    "wikitext-test.txt": 0.0
+  }
+}

@@ -1,0 +1,4 @@
+FROM ./smol-Q4_K_M.gguf
+TEMPLATE """{{ .Prompt }}"""
+PARAMETER temperature 0.2
+PARAMETER num_ctx 4096
