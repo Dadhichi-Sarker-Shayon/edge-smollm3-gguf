@@ -20,6 +20,9 @@ pipeline_tag: text-generation
 
 <div align="center">
 
+<a href="https://huggingface.co/ShayonSarker/SmolLM3-3B-Q4_K_M-GGUF"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge"></a>
+<a href="https://github.com/Dadhichi-Sarker-Shayon/edge-smollm3-gguf"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge"></a>
+
 <img alt="Model" src="https://img.shields.io/badge/model-SmolLM3--3B--Base-8A2BE2?style=for-the-badge">
 <img alt="Published formats" src="https://img.shields.io/badge/GGUF-Q8_0%20%7C%20Q4_K_M-FFD21E?style=for-the-badge">
 <img alt="Parameters" src="https://img.shields.io/badge/params-3B-00A6A6?style=for-the-badge">
@@ -28,6 +31,10 @@ pipeline_tag: text-generation
 <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-7C3AED?style=for-the-badge">
 
 </div>
+
+**Downloads:** [Hugging Face — ShayonSarker/SmolLM3-3B-Q4_K_M-GGUF](https://huggingface.co/ShayonSarker/SmolLM3-3B-Q4_K_M-GGUF) · **Source &amp; build recipes:** [GitHub — edge-smollm3-gguf](https://github.com/Dadhichi-Sarker-Shayon/edge-smollm3-gguf) · **Base model:** [HuggingFaceTB/SmolLM3-3B-Base](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base)
+
+The GGUF binaries are hosted on Hugging Face; this repository holds the reproducible conversion pipeline, calibration data, and checksums.
 
 Base: `HuggingFaceTB/SmolLM3-3B-Base` (SmolLM3ForCausalLM, Apache-2.0) · Quant: llama.cpp `0.4.1-dev (c77ae69)` · imatrix on 4000-line wikitext-2 (seed 42, 798 chunks, 4 threads)
 
